@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Projects - Abhilash K S</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Abhilash K S</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li><a href="skills.html" class="nav-item">Skills</a></li>
+                <li><a href="education.html" class="nav-item">Education</a></li>
+                <li><a href="projects.html" class="nav-item">Projects</a></li>
+                <li><a href="contact.html" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Online Book Rental System</h3>
+                <p>Developed a full-stack web app with secure authentication and optimized database queries using Django</p>
+                <p><strong>Tech:</strong> Django</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>Built a responsive personal website showcasing projects and integrating GitHub repositories. Deployed on cloud platforms.</p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="project">
+                <h3>Student Result Management System</h3>
+                <p>Automated result processing and reporting using Java and MySQL, improving efficiency and accuracy.</p>
+                <p><strong>Tech:</strong> Java, MySQL</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Abhilash K S. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+</body>
+</html>

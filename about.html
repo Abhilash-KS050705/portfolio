@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About - Abhilash K S</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Abhilash K S</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li><a href="skills.html" class="nav-item">Skills</a></li>
+                <li><a href="education.html" class="nav-item">Education</a></li>
+                <li><a href="projects.html" class="nav-item">Projects</a></li>
+                <li><a href="contact.html" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I am a dedicated Computer Science graduate with experience in full-stack web development. I create efficient and scalable applications using React.js, Node.js, and MongoDB. Passionate about learning new technologies, solving complex problems, and delivering innovative solutions that improve user experience and productivity.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Abhilash K S. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+</body>
+</html>
